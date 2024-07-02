@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.12",
+    "next-theme": "^0.1.5",
+    "next-themes": "^0.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icon-cloud": "^4.1.4",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.1",
