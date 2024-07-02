@@ -6,15 +6,15 @@ const introductionItems = [
         description : 'I am a software engineer with 3 years of experience in web development. I have worked on various projects and have experience in front-end and back-end development.',
         socialLinks : [
             {
-                name : 'facebook',
+                name : 'iconoir:facebook-squared',
                 url : 'https://facebook.com/enchantedenderman'
             },
             {
-                name : 'LinkedIn',
+                name : 'iconoir:linkedin',
                 url : 'https://www.linkedin.com/in/up1'
             },
             {
-                name : 'Instagram',
+                name : 'hugeicons:instagram',
                 url : ' https://www.instagram.com/enchantedenderman/'
             }
         ],

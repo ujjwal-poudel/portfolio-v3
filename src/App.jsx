@@ -1,4 +1,3 @@
-import './App.css'
 import Introduction from './components/introduction.jsx'
 import Project from './components/project.jsx'
 
