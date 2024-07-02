@@ -20,7 +20,7 @@ const introductionItems = [
         ],
         mainLinks : [
             {
-                name : 'Resume',
+                name : 'View Resume',
                 url : '/resume'
             },
             {
