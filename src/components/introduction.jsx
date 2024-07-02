@@ -19,22 +19,30 @@ function Introduction() {
                         </div>
                     </div>
 
-                    <div className='text-left mb-[20px]'>
+                    <div className='text-left mb-[15px]'>
                         {/* About me description */}
-                        <p>{item.description}</p>
+                        <p className='mx-w-[106px]'>{item.description}</p>
                     </div>
                     
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row my-[20px]'>
                         {/* Social links */}
                         {item.socialLinks.map((link, linkIndex) => (
-                            <div className='p-[6px] bg-[##F9F9F9] w-[36px]' key={linkIndex}><a href={link.url}><Icon icon={link.name} className='w-[24px] h-[24px] border-[1px] border-color-[#EBEBEB]' /></a></div>
+                            <div className='p-[16px] bg-[##F9F9F9] w-[36px]' key={linkIndex}>
+                                <a href={link.url}>
+                                    <Icon icon={link.name} className='w-[24px] h-[24px] border-[1px] border-color-[#EBEBEB] rounded-[9px]' />
+                                </a>
+                            </div>
                         ))}
                     </div>
 
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row text-[16px]'>
                         {/* Main links */}
                         {item.mainLinks.map((link, linkIndex) => (
-                            <div key={linkIndex}><a href={link.url}>{link.name}</a></div>
+                            <div className='bg-[#000000] px-[10px] py-[5px] rounded-[64px] mr-[27.5px]' key={linkIndex}>
+                                <a className='inline-flex flex-row items-center text-[#FFFFFF] justify-between gap-[8px]' href={link.url}>
+                                    {link.name}<Icon icon="eva:diagonal-arrow-right-up-fill" />
+                                </a>
+                            </div>
                         ))}
                     </div>
                 </div>
